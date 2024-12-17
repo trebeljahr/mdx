@@ -1116,7 +1116,7 @@ respectively.
 After markdown, we go to [hast][] (HTML).
 This transformation is done by
 [`syntax-tree/mdast-util-to-hast`][mdast-util-to-hast].
-Wait, why, what is HTML needed?
+Wait what? Why is HTML needed?
 Part of the reason is that we care about HTML semantics: we want to know that
 something is an `<a>`, not whether it’s a link with a resource (`[text](url)`)
 or a reference to a defined link definition (`[text][id]\n\n[id]: url`).
